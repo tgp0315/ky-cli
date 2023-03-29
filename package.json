@@ -1,0 +1,24 @@
+{
+  "name": "ky-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cli": "node ./bin/index.js"
+  },
+  "bin": {
+    "ky": "./bin/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cac": "^6.7.14"
+  },
+  "devDependencies": {
+    "chalk": "4.1.0",
+    "download-git-repo": "^3.0.2",
+    "log-symbols": "4.1.0",
+    "shelljs": "^0.8.5"
+  }
+}
